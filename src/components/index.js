@@ -23,29 +23,27 @@ import UndrawPhotos from './UndrawPhotos.vue';
 import UndrawMapLight from './UndrawMapLight.vue';
 import UndrawWoman from './UndrawWoman.vue';
 
-export default {
-  UndrawCreditCard,
-  UndrawSocialMedia,
-  UndrawMailSent,
-  UndrawSearch,
-  UndrawMapDark,
-  UndrawPhoto,
-  UndrawBlogPost,
-  UndrawCharts,
-  UndrawDevices,
-  UndrawAtWork,
-  UndrawDelivery,
-  UndrawChat,
-  UndrawDocuments,
-  UndrawAnalytics,
-  UndrawPortfolio,
-  UndrawPlainCreditCard,
-  UndrawYacht,
-  UndrawTabs,
-  UndrawImageFolder,
-  UndrawMobile,
-  UndrawPosts,
-  UndrawPhotos,
-  UndrawMapLight,
-  UndrawWoman
-};
+export { UndrawCreditCard as UndrawCreditCard };
+export { UndrawSocialMedia as UndrawSocialMedia };
+export { UndrawMailSent as UndrawMailSent };
+export { UndrawSearch as UndrawSearch };
+export { UndrawMapDark as UndrawMapDark };
+export { UndrawPhoto as UndrawPhoto };
+export { UndrawBlogPost as UndrawBlogPost };
+export { UndrawCharts as UndrawCharts };
+export { UndrawDevices as UndrawDevices };
+export { UndrawAtWork as UndrawAtWork };
+export { UndrawDelivery as UndrawDelivery };
+export { UndrawChat as UndrawChat };
+export { UndrawDocuments as UndrawDocuments };
+export { UndrawAnalytics as UndrawAnalytics };
+export { UndrawPortfolio as UndrawPortfolio };
+export { UndrawPlainCreditCard as UndrawPlainCreditCard };
+export { UndrawYacht as UndrawYacht };
+export { UndrawTabs as UndrawTabs };
+export { UndrawImageFolder as UndrawImageFolder };
+export { UndrawMobile as UndrawMobile };
+export { UndrawPosts as UndrawPosts };
+export { UndrawPhotos as UndrawPhotos };
+export { UndrawMapLight as UndrawMapLight };
+export { UndrawWoman as UndrawWoman };
