@@ -6,18 +6,27 @@
 export default {
   name: 'UndrawAnalytics',
   props: {
+    /**
+     * Sets the primary color of the illustration
+     */
     primaryColor: {
       type: String,
       default: '#2196f3'
     },
+    /** Sets secondary color of the illustration
+     */
     secondaryColor: {
       type: String,
       default: '#6c63ff'
     },
+    /** Sets tertiary color of the illustration
+     */
     tertiaryColor: {
       type: String,
       default: '#69f0ae'
     },
+    /** Sets height of the illustration
+     */
     height: {
       type: String,
       default: '100'  
@@ -30,3 +39,12 @@ export default {
 <style scoped>
 
 </style>
+
+<docs>
+### Example
+
+```jsx
+<UndrawAnalytics height="100" primaryColor="#41B883" secondaryColor="#FF6F68" tertiaryColor="#FCCA5B"/>
+```
+
+</docs>

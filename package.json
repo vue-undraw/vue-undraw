@@ -1,12 +1,13 @@
 {
   "name": "vue-undraw",
   "version": "0.2.2",
-  "main": "./dist/vue-undraw.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "bundle": "vue-cli-service build --target lib --name vue-undraw ./src/components/index.js",
-    "lint": "vue-cli-service lint"
+    "styleguide": "vue-styleguidist server",
+    "styleguide:build": "vue-styleguidist build"
   },
   "dependencies": {
     "vue": "^2.5.17"
@@ -15,15 +16,11 @@
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
-    "vue-template-compiler": "^2.5.17"
+    "vue-loader": "^15.4.1",
+    "vue-styleguidist": "^1.8.5",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.2"
   },
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ],
   "eslintConfig": {
     "root": true,
     "env": {
@@ -47,5 +44,13 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
+  ],
+  "main": "./dist/vue-undraw.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
   ]
 }

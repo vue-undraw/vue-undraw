@@ -1,26 +1,25 @@
-# vue-undraw
+# Vue unDraw Components (vue-undraw)
 
-## Project setup
-```
-yarn install
-```
+MIT licensed illustrations by unDraw for your Cue projects http://undraw.co
 
-### Compiles and hot-reloads for development
+## Installation
 ```
-yarn run serve
+yarn add vue-undraw
 ```
 
-### Compiles and minifies for production
+or 
+
 ```
-yarn run build
+npm install --save vue-undraw
 ```
 
-### Build your bundle
-```
-yarn run bundle
-```
 
-### Lints and fixes files
+### Usage
+
+main.js
 ```
-yarn run lint
+import { UndrawCreditCard } from 'vue-undraw';
+
+// Global registration in your main.js/App.vue file
+Vue.component(UndrawCreditCard.name, UndrawCreditCard);
 ```
