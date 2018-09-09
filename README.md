@@ -1,6 +1,8 @@
 # Vue unDraw Components
 
-Vue unDraw Components: MIT licensed illustrations by unDraw (http://undraw.co) for your vue.js projects
+Vue unDraw Components: MIT licensed illustrations by unDraw (http://undraw.co) for your vue.js projects 
+
+<strong>In progress:</strong> - more components and documentation are coming soon
 
 ![vue undraw](https://user-images.githubusercontent.com/12070900/45263336-b482df00-b427-11e8-9e46-8d41a458dd7b.png)
 
@@ -18,7 +20,7 @@ npm install --save vue-undraw
 
 ## Usage
 
-main.js
+##### main.js
 
 ```javascript
 import { UndrawCreditCard } from 'vue-undraw';
