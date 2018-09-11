@@ -39,6 +39,24 @@ module.exports = {
         textAlign: 'center'
       }
     },
+    Playground: {
+			preview: {
+				paddingLeft: '1rem',
+				paddingRight: '1rem',
+				borderWidth: [[0, 0, 1, 0]],
+        borderRadius: 0,
+        backgroundColor: '#f4f4f4'
+			},
+		},
+    Markdown: {
+			pre: {
+				border: 0,
+				background: 'none',
+			},
+			code: {
+				fontSize: 14,
+			},
+		},
     ComponentsList: {
       list: {
         '& ul': {
