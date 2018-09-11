@@ -6,10 +6,15 @@
 export default {
   name: 'UndrawChat',
   props: {
+    /**
+     * Sets the primary color of the illustration
+     */
     primaryColor: {
       type: String,
       default: '#6c63ff'
     },
+    /** Sets height of the illustration
+     */
     height: {
       type: String,
       default: '100'  

@@ -6,14 +6,22 @@
 export default {
   name: 'UndrawTabs',
   props: {
+    /**
+     * Sets the primary color of the illustration
+     */
     primaryColor: {
       type: String,
       default: '#6c63ff'
     },
+    /**
+     * Sets the accent color of the illustration
+     */
     accentColor: {
       type: String,
       default: '#64ffda'
     },
+    /** Sets height of the illustration
+     */
     height: {
       type: String,
       default: '100'  

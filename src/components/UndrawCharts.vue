@@ -6,18 +6,29 @@
 export default {
   name: 'UndrawCharts',
   props: {
+    /**
+     * Sets the primary color of the illustration
+     */
     primaryColor: {
       type: String,
       default: '#6c63ff'
     },
+    /**
+     * Sets the secondary color of the illustration
+     */
     secondaryColor: {
       type: String,
       default: '#2196f3'
     },
+    /**
+     * Sets the tertiary color of the illustration
+     */
     tertiaryColor: {
       type: String,
       default: '#69f0ae'
     },
+    /** Sets height of the illustration
+     */
     height: {
       type: String,
       default: '100'  

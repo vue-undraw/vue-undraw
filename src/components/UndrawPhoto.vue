@@ -6,14 +6,22 @@
 export default {
   name: 'UndrawPhoto',
   props: {
+    /**
+     * Sets the primary color of the illustration
+     */
     primaryColor: {
       type: String,
       default: '#6c63ff'
     },
+    /**
+     * Sets the secondary color of the illustration
+     */
     secondaryColor: {
       type: String,
       default: '#ff5252'
     },
+    /** Sets height of the illustration
+     */
     height: {
       type: String,
       default: '100'  

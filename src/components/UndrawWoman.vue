@@ -6,22 +6,36 @@
 export default {
   name: 'UndrawWoman',
   props: {
+    /**
+     * Sets the primary color of the illustration
+     */
     primaryColor: {
       type: String,
       default: '#6c63ff'
     },
+    /**
+     * Sets the hair color of the illustration
+     */
     hairColor: {
       type: String,
       default: '#e53935'
     },
+    /**
+     * Sets the skin color of the illustration
+     */
     skinColor: {
       type: String,
       default: '#ffe0b2'
     },
+    /**
+     * Sets the pants color of the illustration
+     */
     pantsColor: {
       type: String,
       default: '#212121'
     },
+    /** Sets height of the illustration
+     */
     height: {
       type: String,
       default: '100'  

@@ -6,18 +6,29 @@
 export default {
   name: 'UndrawYacht',
   props: {
+    /**
+     * Sets the primary color of the illustration
+     */
     primaryColor: {
       type: String,
       default: '#6c63ff'
     },
+    /**
+     * Sets the secondary color of the illustration
+     */
     secondaryColor: {
       type: String,
       default: '#ff5252'
     },
+    /**
+     * Sets the accent color of the illustration
+     */
     accentColor: {
       type: String,
       default: '#69f0ae'
     },
+    /** Sets height of the illustration
+     */
     height: {
       type: String,
       default: '100'  
