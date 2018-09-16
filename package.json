@@ -63,5 +63,14 @@
     "*.json",
     "*.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaiWedekind/vue-undraw.git"
+  },
+  "author": "Kai Wedekind <wedekind.kai@googlemail.com> (https://www.kaiwedekind.com/)",
+  "bugs": {
+    "url": "https://github.com/KaiWedekind/vue-undraw/issues"
+  },
+  "homepage": "https://github.com/KaiWedekind/vue-undraw#readme",
   "license": "MIT"
 }
