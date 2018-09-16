@@ -55,7 +55,7 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "main": "./dist/vue-undraw.common.js",
+  "main": "./src/components/index.js",
   "files": [
     "dist/*",
     "src/*",
