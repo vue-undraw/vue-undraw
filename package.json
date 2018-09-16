@@ -1,11 +1,13 @@
 {
   "name": "vue-undraw",
-  "version": "0.4.2",
+  "version": "0.4.1",
+  "description": "A Vue component library for unDraw illustrations",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "bundle": "vue-cli-service build --target lib --name vue-undraw ./src/components/index.js",
+    "bundle": "rm -rf dist && NODE_ENV=production webpack",
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build"
   },
@@ -17,19 +19,25 @@
     "svg",
     "unDraw"
   ],
-  "dependencies": {
+  "peerDependencies": {
     "vue": "^2.5.17"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
+    "deepmerge": "^2.1.1",
+    "jest": "^23.6.0",
+    "jest-vue-preprocessor": "^1.4.0",
+    "rimraf": "^2.6.2",
     "vue-loader": "^15.4.1",
     "vue-styleguidist": "^1.8.5",
     "vue-template-compiler": "^2.5.17",
     "webpack": "^4.17.2",
-    "deepmerge": "^2.1.1",
-    "rimraf": "^2.6.2"
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
   },
   "eslintConfig": {
     "root": true,
@@ -45,24 +53,6 @@
       "parser": "babel-eslint"
     }
   },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
-  "main": "./src/components/index.js",
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/KaiWedekind/vue-undraw.git"
