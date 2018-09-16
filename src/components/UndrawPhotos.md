@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawPhotos height="100" primaryColor="#41B883" secondaryColor="#FF6F68"/>
+<UndrawPhotos />
+```
+
+**Customized**
+```jsx
+<UndrawPhotos primaryColor="#41B883" height="100" />
 ```

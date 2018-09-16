@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawMailSent height="100" primaryColor="#41B883"/>
+<UndrawMailSent />
+```
+
+**Customized**
+```jsx
+<UndrawMailSent primaryColor="#41B883" height="100" />
 ```

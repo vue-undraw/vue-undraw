@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawMapLight height="100" primaryColor="#41B883"/>
+<UndrawMapLight />
+```
+
+**Customized**
+```jsx
+<UndrawMapLight primaryColor="#41B883" height="100" />
 ```

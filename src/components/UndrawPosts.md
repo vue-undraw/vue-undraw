@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawPosts height="100" primaryColor="#41B883" accentColor="#FFEEAD"/>
+<UndrawPosts />
+```
+
+**Customized**
+```jsx
+<UndrawPosts primaryColor="#41B883" height="100" />
 ```

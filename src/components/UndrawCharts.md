@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawCharts height="100" primaryColor="#41B883" secondaryColor="#FF6F68" tertiaryColor="#FCCA5B"/>
+<UndrawCharts />
+```
+
+**Customized**
+```jsx
+<UndrawCharts primaryColor="#41B883" height="100" />
 ```

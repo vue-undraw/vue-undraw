@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawPortfolio height="100" primaryColor="#41B883" accentColor="#FFEEAD"/>
+<UndrawPortfolio />
+```
+
+**Customized**
+```jsx
+<UndrawPortfolio primaryColor="#41B883" height="100" />
 ```

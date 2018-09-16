@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawSocialMedia height="100" primaryColor="#41B883"/>
+<UndrawSocialMedia />
+```
+
+**Customized**
+```jsx
+<UndrawSocialMedia primaryColor="#41B883" height="100" />
 ```

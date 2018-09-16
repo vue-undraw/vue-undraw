@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawPlainCreditCard height="100" primaryColor="#41B883" accentColor="#FFEEAD"/>
+<UndrawPlainCreditCard />
+```
+
+**Customized**
+```jsx
+<UndrawPlainCreditCard primaryColor="#41B883" height="100" />
 ```

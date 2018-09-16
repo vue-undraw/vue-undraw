@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawChat height="100" primaryColor="#41B883"/>
+<UndrawChat />
+```
+
+**Customized**
+```jsx
+<UndrawChat primaryColor="#41B883" height="100" />
 ```

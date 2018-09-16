@@ -6,6 +6,22 @@
     </header>
     <main>
       <ul>
+        <li v-if="!keywords || components[27].title.toLowerCase().indexOf(keywords.toLowerCase()) > -1 || components[27].tags.toLowerCase().indexOf(keywords.toLowerCase()) > -1">
+          <UndrawAutumn height="100" :primaryColor="primaryColor"/>
+          <h1>{{ components[27].title }}</h1>
+        </li>
+        <li v-if="!keywords || components[26].title.toLowerCase().indexOf(keywords.toLowerCase()) > -1 || components[26].tags.toLowerCase().indexOf(keywords.toLowerCase()) > -1">
+          <UndrawSocialTree height="100" :primaryColor="primaryColor" :secondaryColor="secondaryColor"/>
+          <h1>{{ components[26].title }}</h1>
+        </li>
+        <li v-if="!keywords || components[25].title.toLowerCase().indexOf(keywords.toLowerCase()) > -1 || components[25].tags.toLowerCase().indexOf(keywords.toLowerCase()) > -1">
+          <UndrawDesignerGirl height="100" :primaryColor="primaryColor" :skinColor="skinColor" :pantsColor="pantsColor"/>
+          <h1>{{ components[25].title }}</h1>
+        </li>
+        <li v-if="!keywords || components[24].title.toLowerCase().indexOf(keywords.toLowerCase()) > -1 || components[24].tags.toLowerCase().indexOf(keywords.toLowerCase()) > -1">
+          <UndrawNerd height="100" :primaryColor="primaryColor" :skinColor="skinColor" :accentColor="accentColor"/>
+          <h1>{{ components[24].title }}</h1>
+        </li>
         <li v-if="!keywords || components[23].title.toLowerCase().indexOf(keywords.toLowerCase()) > -1 || components[23].tags.toLowerCase().indexOf(keywords.toLowerCase()) > -1">
           <UndrawWoman height="100" :primaryColor="primaryColor" :pantsColor="pantsColor" :hairColor="hairColor" :skinColor="skinColor"/>
           <h1>{{ components[23].title }}</h1>
@@ -148,6 +164,10 @@ import UndrawPosts from './components/UndrawPosts.vue'
 import UndrawPhotos from './components/UndrawPhotos.vue'
 import UndrawMapLight from './components/UndrawMapLight.vue'
 import UndrawWoman from './components/UndrawWoman.vue'
+import UndrawNerd from './components/UndrawNerd.vue'
+import UndrawDesignerGirl from './components/UndrawDesignerGirl.vue'
+import UndrawSocialTree from './components/UndrawSocialTree.vue'
+import UndrawAutumn from './components/UndrawAutumn.vue'
 
 export default {
   name: 'app',
@@ -175,7 +195,11 @@ export default {
     UndrawPosts,
     UndrawPhotos,
     UndrawMapLight,
-    UndrawWoman
+    UndrawWoman,
+    UndrawNerd,
+    UndrawDesignerGirl,
+    UndrawSocialTree,
+    UndrawAutumn
   },
   data () {
     return {
@@ -275,13 +299,29 @@ export default {
         {
           title: 'Woman',
           tags: 'call, happy, girl, mobile, dog, walk, happy, cell phone, dog sitting, trendy, hoodie'
+        },
+        {
+          title: 'Nerd',
+          tags: 'man, glasses, happy, godin, tech, hipster, people, human, customer support'
+        },
+        {
+          title: 'Designer Girl',
+          tags: 'woman, pc, sitting, office, drawing, illustrator, sketch, photoshop, canvas, create, web design, modern'
+        },
+        {
+          title: 'Social Tree',
+          tags: 'christmas, twitter, facebook, google plus, pinterest, linkedin, holiday, xmas, new year, gifts'
+        },
+        {
+          title: 'Autumn',
+          tags: 'fall, couple, woman, man, umbrella, bench, leaves, together, walk, life, love, romantic'
         }
       ],
       keywords: '',
       primaryColor: '#41B883',
       secondaryColor: '#FF6F68',
       tertiaryColor: '#FCCA5B',
-      accentColor: '#FFEEAD',
+      accentColor: '#FF3366',
       hairColor: '#e53935',
       skinColor: '#ffe0b2',
       pantsColor: '#212121'

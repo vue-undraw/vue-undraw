@@ -1,5 +1,11 @@
 ### Example
 
+**Default**
 ```jsx
-<UndrawWoman height="100" primaryColor="#41B883" hairColor="#e53935" skinColor="#ffe0b2" pantsColor="#212121"/>
+<UndrawWoman />
+```
+
+**Customized**
+```jsx
+<UndrawWoman primaryColor="#41B883" height="100" />
 ```
