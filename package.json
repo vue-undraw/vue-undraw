@@ -4,10 +4,12 @@
   "description": "A Vue component library for unDraw illustrations",
   "main": "src/index.js",
   "jsnext:main": "src/index.js",
+  "module": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "bundle": "rm -rf dist && NODE_ENV=production webpack",
+    "bundle": "vue-cli-service build --target lib --name vue-undraw ./src/index.js",
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build"
   },
@@ -23,8 +25,6 @@
     "vue": "^2.5.17"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.1",
-    "@babel/preset-env": "^7.0.0",
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
@@ -35,9 +35,7 @@
     "vue-loader": "^15.4.1",
     "vue-styleguidist": "^1.8.5",
     "vue-template-compiler": "^2.5.17",
-    "webpack": "^4.17.2",
-    "webpack-cli": "^3.1.0",
-    "webpack-merge": "^4.1.4"
+    "webpack": "^4.17.2"
   },
   "eslintConfig": {
     "root": true,
