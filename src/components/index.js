@@ -22,6 +22,7 @@ import UndrawPosts from './UndrawPosts.vue';
 import UndrawPhotos from './UndrawPhotos.vue';
 import UndrawMapLight from './UndrawMapLight.vue';
 import UndrawWoman from './UndrawWoman.vue';
+import UndrawGettingCoffee from './UndrawGettingCoffee.vue'
 
 export { UndrawCreditCard as UndrawCreditCard };
 export { UndrawSocialMedia as UndrawSocialMedia };
@@ -47,3 +48,4 @@ export { UndrawPosts as UndrawPosts };
 export { UndrawPhotos as UndrawPhotos };
 export { UndrawMapLight as UndrawMapLight };
 export { UndrawWoman as UndrawWoman };
+export { UndrawGettingCoffee as UndrawGettingCoffee };
