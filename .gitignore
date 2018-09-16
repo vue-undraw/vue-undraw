@@ -21,7 +21,6 @@ yarn-error.log*
 *.sw*
 
 transform.js
-/src
 /config
 /templates
 /illustrations
