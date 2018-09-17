@@ -10,7 +10,7 @@
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build",
     "prepare-publish": "rm -r dist; cp -r src/components dist; cp package.json dist/package.json; cp README.md dist/README.md;",
-    "npm-publish": "cd dist; npm publish"
+    "npm-publish": "cd dist; npm version patch; npm publish"
   },
   "keywords": [
     "vue",
