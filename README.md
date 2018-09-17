@@ -33,6 +33,10 @@ Vue.component(UndrawCreditCard.name, UndrawCreditCard);
 
 https://kaiwedekind.github.io/vue-undraw/
 
+## Example
+
+https://codesandbox.io/s/34o28v536q
+
 ## Contributors
 
 <table>
