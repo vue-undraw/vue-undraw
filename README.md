@@ -21,7 +21,7 @@ npm install --save vue-undraw
 ##### main.js
 
 ```javascript
-import { UndrawCreditCard } from 'vue-undraw';
+import UndrawCreditCard from 'vue-undraw/UndrawCreditCard';
 ```
 
 ```javascript
