@@ -1,6 +1,6 @@
 {
   "name": "vue-undraw",
-  "version": "0.4.10",
+  "version": "0.4.12",
   "description": "A Vue component library for unDraw illustrations",
   "scripts": {
     "serve": "vue-cli-service serve",
