@@ -9,8 +9,8 @@
     "bundle": "vue-cli-service build --target lib --name vue-undraw ./src/index.js",
     "styleguide": "vue-styleguidist server",
     "styleguide:build": "vue-styleguidist build",
-    "prepublish": "cp package.json src/components/package.json",
-    "publish": "yarn version patch; yarn publish src/components;"
+    "prepare-publish": "rm -r dist; cp -r src/components dist; cp package.json dist/package.json; cp README.md dist/README.md;",
+    "npm-publish": "yarn publish dist"
   },
   "keywords": [
     "vue",
