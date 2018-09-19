@@ -355,3 +355,7 @@ export { default as UndrawPedestrianCrossing } from './components/UndrawPedestri
 export { default as UndrawGettingCoffee } from './components/UndrawGettingCoffee'
 export { default as UndrawBusinesswoman } from './components/UndrawBusinesswoman'
 export { default as UndrawBeforeDawn } from './components/UndrawBeforeDawn'
+export { default as UndrawBusinessPlan } from './components/UndrawBusinessPlan'
+export { default as UndrawOrderConfirmed } from './components/UndrawOrderConfirmed'
+export { default as UndrawFeelingBlue } from './components/UndrawFeelingBlue'
+export { default as UndrawDashboard } from './components/UndrawDashboard'
