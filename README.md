@@ -1,8 +1,6 @@
 # Vue unDraw Components
 
-Vue unDraw Components: MIT licensed illustrations by unDraw (http://undraw.co) for your vue.js projects 
-
-![vue undraw](https://user-images.githubusercontent.com/12070900/45263336-b482df00-b427-11e8-9e46-8d41a458dd7b.png)
+Vue unDraw Components: MIT licensed illustrations by unDraw (http://undraw.co) for your vue.js projects
 
 ## Installation
 
@@ -31,7 +29,7 @@ Vue.component(UndrawCreditCard.name, UndrawCreditCard);
 
 ## Documentation
 
-https://kaiwedekind.github.io/vue-undraw/
+https://vue-undraw.github.io
 
 ## Example
 
