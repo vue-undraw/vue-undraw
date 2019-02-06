@@ -33,7 +33,7 @@ https://vue-undraw.github.io
 
 ## Example
 
-https://codesandbox.io/s/34o28v536q
+https://codesandbox.io/s/o7l1xzn745
 
 ## Contributors
 
